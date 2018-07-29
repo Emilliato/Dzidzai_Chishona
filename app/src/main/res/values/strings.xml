@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Dzidzai Chishona</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_weekdays">Week Days</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members</string>
+    <string name="welcome">Select a category below</string>
+    <string name="s_count">Basic Counting in shona</string>
+    <string name="dec_proverbs">Understand Shona thoughts and expressions.</string>
+    <string name="desc_family">Get to understand relationships in a family</string>
+    <string name="desc_weekdays">Get to know week days</string>
+    <string name="desc_phrases">Get to know some basics</string>
+    <string name="place_holder">----------</string>
+    <string name="vowel_ba">ba be bi bo bu</string>
+    <string name="vowel_bh">bha bhe bhi bho bhu</string>
+    <string name="vowel_bv">bva bve bvi bvo bvu</string>
+    <string name="vowel_bw">bwa bwe bwi bwo bwu</string>
+    <string name="vowel_ch">cha che chi cho chu</string>
+    <string name="vowel_da">da de di do dua</string>
+    <string name="vowel_dh">dha dhe dhi dho dhu</string>
+    <string name="vowel_dz">dza dze dzi dzo dzu</string>
+    <string name="vowel_dy">dya dye dyi dyo dyu</string>
+    <string name="fa">fa fe fi fo fu</string>
+    <string name="vowel_ga">ga ge gi go gu</string>
+    <string name="vowel_gw">gwa gwe gwi gwo gwu</string>
+    <string name="desc_animals">Its good to know about animals</string>
+
+</resources>

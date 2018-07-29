@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:id="@+id/list_item1"
+    android:background="@color/tan_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:padding="16dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_height="@dimen/list_item_height">
+    <TextView
+        android:id="@+id/tv_shona"
+        tools:text="poshi"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="top"/>
+    <TextView
+        android:id="@+id/tv_default"
+        tools:text="one"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:layout_gravity="top" />
+    </LinearLayout>
+    <ImageView
+          android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@android:drawable/ic_media_play"/>
+
+</RelativeLayout>
